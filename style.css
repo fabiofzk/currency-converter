@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: #8a51fc;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+main {
+    background: #f4f4f4;
+    border-radius: 20px;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding: 44px 24px 23px;
+
+}
+
+label {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+select, input{
+    color: #555555;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 24px;
+    padding: 14px 16px 11px;
+    margin-top: 6px;
+}
+
+button {
+    background-color: #772FD3;
+    color: white;
+    width: 327px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    margin-top: 36px;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media (max-width:750px) {
+    .logo {
+        display: none;
+    }
+
+    main {
+        margin: 50px auto;
+    }
+}
